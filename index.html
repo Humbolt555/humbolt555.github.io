@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuka Mini - Control sencillo de ventas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-logo">Yuka Mini</a>
+            
+            <ul class="navbar-menu">
+                <li><a href="#features">Características</a></li>
+                <li><a href="#stats">Estadísticas</a></li>
+                <li><a href="privacy.html">Política de Privacidad</a></li>
+                <li><a href="#testimonial">Testimonios</a></li>
+            </ul>
+
+            <a href="#" class="navbar-cta">Comenzar Gratis</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Yuka<span style="font-size: 0.6em; vertical-align: super; opacity: 0.7;">(mini)</span></h1>
+                <h2>Control sencillo de ventas</h2>
+                <a href="#" class="hero-cta">Empezar Ahora</a>
+            </div>
+            <div class="geometric-pattern">
+                <img src="img/phone_1.png" alt="App en teléfono">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section" id="features">
+        <div class="section-container">
+            <h2 class="section-title">Funcionalidades Principales</h2>
+            <p class="section-subtitle">La idea es cargar productos/servicios con un nombre costo y precio de venta, y luego gestionar su venta de manera sencilla. Cuando estás arrancando o validando tu idea de negocio no queremos marearte con proveedores, facturas, impuestos, ordenes de compra y mil funciones más que aún no te son útiles.</p></p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Dashboard Intuitivo</h3>
+                    <p>Visualiza todas tus métricas de ventas en un solo lugar. Gráficos claros y datos en tiempo real para tomar decisiones informadas.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Seguimiento de Ingresos</h3>
+                    <p>Monitorea tus ingresos totales y ganancias de forma automática. Reportes detallados por período y categoría de productos.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📦</div>
+                    <h3>Tu información es tuya</h3>
+                    <p>Cuando quieras pasarte a una solucion mas profesional y compleja, podés exportar tus ventas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section" id="stats">
+        <div class="section-container">
+            <h2 class="section-title">Números que Hablan</h2>
+            <p class="section-subtitle"><del>Miles de</del> Algunos <del>empresarios</del> emprendedores confían en Yuka Mini para hacer crecer sus negocios</p>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">10,000+</div>
+                    <div class="stat-label">Usuarios Activos (mentira)</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">$2.5M</div>
+                    <div class="stat-label">En Ventas Procesadas (lol)</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">99.9%</div>
+                    <div class="stat-label">Tiempo de Actividad (casi siempre)</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Soporte al Cliente (de ahi que lea el correo es otra cosa)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial Section -->
+    <section class="section" id="testimonial">
+        <div class="section-container">
+            <h2 class="section-title">Lo que Dicen Nuestros Clientes</h2>
+            <p class="section-subtitle">Historias reales de emprendedores que han transformado sus negocios</p>
+            
+            <div class="privacy-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        "Yuka Mini transformó completamente la manera en que manejo mis ventas. Ahora puedo ver todo claramente y tomar decisiones más rápidas."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MR</div>
+                        <div class="author-info">
+                            <h4>María Rodríguez</h4>
+                            <p>Propietaria de Boutique Fashion</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        "La simplicidad de la app es increíble. En 5 minutos ya estaba registrando mis primeras ventas y viendo los reportes."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">CG</div>
+                        <div class="author-info">
+                            <h4>Carlos González</h4>
+                            <p>Vendedor de Productos Artesanales</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        "Desde que uso Yuka Mini, mis ventas aumentaron un 40%. El control que me da sobre mi negocio es invaluable."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AM</div>
+                        <div class="author-info">
+                            <h4>Ana Martínez</h4>
+                            <p>Emprendedora Digital</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

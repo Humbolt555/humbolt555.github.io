@@ -14,6 +14,10 @@
         <div class="navbar-container">
             <a href="#" class="navbar-logo">Yuka Mini</a>
 
+            <button class="navbar-toggle" id="navbar-toggle">
+                ☰
+            </button>
+
             <ul class="navbar-menu">
                 <li><a href="index.html#features">Características</a></li>
                 <li><a href="index.html#stats">Estadísticas</a></li>
@@ -35,16 +39,21 @@
                 </div>
                 <div class="geometric-pattern">
                     <div class="yuka" style="z-index: 1;">
-                    <h1><span style="opacity: 0.7;">Downloads</span></h1>
-                    <ul>
-                        <li><a href="downloads/yuka_mini.apk" download>Android</a></li>
-                        <li><a href="downloads/yuka_mini.zip" download>Windows</a></li>
-                    </ul>
+                        <h1><span style="opacity: 0.7;">Downloads</span></h1>
+                        <ul>
+                            <li><a href="downloads/yuka_mini.apk" download>Android</a></li>
+                            <li><a href="downloads/yuka_mini.zip" download>Windows</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
     </div>
+    <script>
+        document.getElementById('navbar-toggle').addEventListener('click', () => {
+            document.getElementById('navbar-menu').classList.toggle('show');
+        });
+    </script>
 </body>
 
 </html>

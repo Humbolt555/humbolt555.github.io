@@ -72,6 +72,16 @@
             cursor: pointer;
         }
 
+
+
+        .navbar-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.8rem;
+            cursor: pointer;
+        }
+
         @media (max-width: 768px) {
             .navbar-toggle {
                 display: block;
@@ -81,10 +91,10 @@
             .navbar-menu {
                 display: none;
                 flex-direction: column;
-                background: white;
                 position: absolute;
                 top: 70px;
                 right: 0;
+                background: white;
                 width: 200px;
                 box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
                 padding: 1rem;
@@ -98,8 +108,15 @@
             .navbar-cta {
                 display: none;
             }
+
+            .privacy-policy {
+                margin-top: 100px;
+            }
         }
 
+        .privacy-policy {
+            margin-top: 100px;
+        }
 
         .navbar-cta {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
